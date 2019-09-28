@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.integrador_crud_pos.activity.MainActivity">
+    <item
+        android:id="@+id/action_logar"
+        android:icon="@drawable/ic_action_logar"
+        android:title="Logar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_cadastrar"
+        android:icon="@drawable/ic_action_cadastro"
+        android:title="Cadastrar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_listar"
+        android:icon="@drawable/ic_action_listar"
+        android:title="Listar" />
+</menu>
